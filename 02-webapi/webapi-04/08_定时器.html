@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1.setTimeout
+        // 语法规范: window.setTimeout(调用函数,延时时间)
+        // 1.window在调用的时候可以省略
+        // 2.延时的单位时间是毫秒,可以省略 默认是0
+        function callback(){
+            console.log("boommmm");
+        }
+
+        var timer1 = setTimeout(callback, 2000)
+    </script>
+</body>
+</html>
