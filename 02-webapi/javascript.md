@@ -1202,3 +1202,11 @@ style：
 
 ```
 
+### client
+
+```shell
+client 宽度 和我们offsetWidth 最大的区别就是 不包含边框
+```
+
+
+
