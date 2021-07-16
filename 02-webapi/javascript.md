@@ -1208,5 +1208,14 @@ style：
 client 宽度 和我们offsetWidth 最大的区别就是 不包含边框
 ```
 
+### scroll
+
+```shell
+ // scroll滚动事件当我们滚动条发生变化会触发的事件
+        div.addEventListener('scroll', function() {
+            console.log(div.scrollTop);
+     })
+```
+
 
 
